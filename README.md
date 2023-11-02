@@ -18,4 +18,4 @@ This is a client UX framework learning exercise for myself where I built a simpl
 <img width="218" alt="image" src="https://github.com/joe-chiu/Calc/assets/14063642/254df694-5e3c-4f10-bdbe-9c08c9c04cc2">
 
 # React Native (running on iOS)
-![image](https://github.com/joe-chiu/Calc/assets/14063642/d6d57cbf-18d7-41de-9d48-f6d48f8fee30)
+<img width="220" alt="image" src="https://github.com/joe-chiu/Calc/assets/14063642/d6d57cbf-18d7-41de-9d48-f6d48f8fee30">
