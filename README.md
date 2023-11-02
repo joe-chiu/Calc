@@ -11,5 +11,9 @@ This is a client UX framework learning exercise for myself where I built a simpl
 # WinForm Calc
 <img width="183" alt="image" src="https://github.com/joe-chiu/Calc/assets/14063642/71b260f2-820c-4ce9-afde-2994484844cc">
 
+# MAUI Calc
+<img width="219" alt="image" src="https://github.com/joe-chiu/Calc/assets/14063642/081e0648-1213-478d-b564-1cd0ca8fb582">
 
-  
+# React Calc
+<img width="218" alt="image" src="https://github.com/joe-chiu/Calc/assets/14063642/254df694-5e3c-4f10-bdbe-9c08c9c04cc2">
+
