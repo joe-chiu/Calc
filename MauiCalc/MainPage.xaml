@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MauiCalc.MainPage">
+
+    <ContentPage.Resources>
+        <Style
+            TargetType="Button">
+            <Setter Property="HorizontalOptions" Value="Fill" />
+            <Setter Property="VerticalOptions" Value="Fill" />
+            <Setter Property="Margin" Value="3" />
+            <Setter Property="Padding" Value="3" />
+            <Setter Property="FontSize" Value="Large" />
+            <Setter Property="CornerRadius" Value="30" />
+            <Setter Property="BackgroundColor" Value="DimGrey" />
+            <Setter Property="TextColor" Value="White" />
+        </Style>
+    </ContentPage.Resources>
+        
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Entry
+            Grid.Row="0" Grid.Column="0"
+            Grid.ColumnSpan="4"
+            HorizontalTextAlignment="End"
+            x:Name="numberEntry"
+            FontSize="Header"
+            IsReadOnly="True"
+            Text="88,888.08" />
+
+        <Button
+            Grid.Row="2"
+            Grid.Column="0"
+            BackgroundColor="LightGrey"
+            TextColor="Black"
+            
+            x:Name="clearBtn"
+            Text="AC"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="2"
+            Grid.Column="1"
+            BackgroundColor="LightGrey"
+            TextColor="Black"
+            
+            x:Name="FlipSignBtn"
+            Text="+/-"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="2"
+            Grid.Column="2"
+            BackgroundColor="LightGrey"
+            TextColor="Black"
+            
+            x:Name="PercentBtn"
+            Text="%"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="2"
+            Grid.Column="3"
+            BackgroundColor="Orange"
+            
+            x:Name="DivideBtn"
+            Text="/"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="3"
+            Grid.Column="0"
+            
+            x:Name="SevenBtn"
+            Text="7"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="3"
+            Grid.Column="1"
+            
+            x:Name="EightBtn"
+            Text="8"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="3"
+            Grid.Column="2"
+            
+            x:Name="NineBtn"
+            Text="9"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="3"
+            Grid.Column="3"
+            BackgroundColor="Orange"
+            
+            x:Name="MultiplyBtn"
+            Text="*"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="0"
+            
+            x:Name="FourBtn"
+            Text="4"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="1"
+            
+            x:Name="FiveBtn"
+            Text="5"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="2"
+            
+            x:Name="SixBtn"
+            Text="6"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="3"
+            BackgroundColor="Orange"
+            
+            x:Name="MinusBtn"
+            Text="-"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="5"
+            Grid.Column="0"
+            
+            x:Name="OneBtn"
+            Text="1"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="5"
+            Grid.Column="1"
+            
+            x:Name="TwoBtn"
+            Text="2"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="5"
+            Grid.Column="2"
+            
+            x:Name="ThreeBtn"
+            Text="3"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="5"
+            Grid.Column="3"
+            BackgroundColor="Orange"
+            
+            x:Name="PlusBtn"
+            Text="+"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="6"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+                                   
+            x:Name="ZeroBtn"
+            Text="0"
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="6"
+            Grid.Column="2"
+            
+            x:Name="DotBtn"
+            Text="."
+            Clicked="OnButtonClicked" />
+
+        <Button
+            Grid.Row="6"
+            Grid.Column="3"
+            BackgroundColor="Orange"
+            
+            x:Name="EqualBtn"
+            Text="="
+            Clicked="OnButtonClicked" />
+    </Grid>
+
+</ContentPage>

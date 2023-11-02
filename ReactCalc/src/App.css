@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  margin: 15px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    gap: 10px;
+    background-color: black;
+    width: 230px;
+    padding: 15px;
+}
+
+.itemNumber {
+    grid-column: 1 / span 4;
+}
+
+.itemZero {
+    grid-column: 1 / span 2;
+}
+
+.itemOps > button {
+    background-color: orange;
+    color: white;
+}
+
+.itemTop > button {
+    background-color: lightgray;
+    color: black;
+}
+
+.itemNum > button {
+    background-color: dimgrey;
+    color: white;
+}
+
+.itemNumber > input {
+    width: calc(100% - 10px);
+    font-size: xx-large;
+    text-align: right;
+}
+
+.item > button {
+    width: 100%;
+    height: 100%;
+    font-size: x-large;
+
+    border-radius: 25px;
+    border: none;
+}
