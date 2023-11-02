@@ -1,0 +1,15 @@
+# Calc
+This is a client UX framework learning exercise for myself where I built a simple Calculator modeled after iPhone's built in calculator using various .Net and web-based UI frameworks. Building the same exact app across different frameworks allowed me to compare their ease of use and how soon I get to the same desired results. I also use this to compare the development experience using Visual Studio 2022 (WinForms and MAUI) and Visual Studio Code (the rest).
+* C# calc engine: using a simple 3-state state machine to model the simple calculator input and result output flow. The use of the state machine made the code easier to understand and easier to debug and ensure correctness.
+* Typescript calc engine: a simple port of the C# version, the similarity between the two languages made it very easy to port. A future topic of investigation is how to transpile C# business logic directly into something typescript can consume.
+* Console Calculator: A good test on the versatility of the calc engine.
+* .Net MAUI: the latest in the modern .Net XAML-based UI framework, now crossplatform. I tested on Windows as I don't have a Mac HW new enough to run the Mac port.
+* .Net WinForms: an old favorite UI framework of mine. C# + WinForms is the closest proximation to the beloved Visual Basic development experience. But the layout is really clunky comparing to markup based methods. It took more efforts to make the UI scale correctly to windows sizes.
+* React: very simple React app, and HTML5 + CSS is really enjoyable and very easy to get expected results.
+* ReactNative: write once and debug everywhere. It works but things never just work in the first try. CSS is so familiar yet there are many gotcha that "it only works if you do it this specific way".
+
+# WinForm Calc
+<img width="183" alt="image" src="https://github.com/joe-chiu/Calc/assets/14063642/71b260f2-820c-4ce9-afde-2994484844cc">
+
+
+  
